@@ -11,7 +11,7 @@ class Person
     @hygiene_points = hygiene_points
   end
 
-    
+
   def clean?
     if @hygiene_points > 7
       return true
