@@ -11,7 +11,7 @@ class Person
 
   attr_reader :name
 
-  def initialize(name, balance = 25, hapiness_points = 8, hygiene_points = 8 )
+  def initialize(name, balance = 25, happiness_points = 8, hygiene_points = 8 )
     @name = name
     @balance = balance
     @hapiness = happiness_points
@@ -65,7 +65,7 @@ class Person
 
     elsif topic == "weather"
       puts "blah blah sun blah rain"
-      
+
     else
       puts "blah blah blah blah blah"
     end
