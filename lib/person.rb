@@ -13,7 +13,7 @@ class Person
 
 
   def clean?
-    if @hygiene_points > 7
+    if @hygiene > 7
       return true
     else
       false
@@ -21,7 +21,7 @@ class Person
   end
 
   def happy?
-    if @happiness_points > 7
+    if @happiness > 7
       return true
     else
       false
