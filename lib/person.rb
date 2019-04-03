@@ -11,7 +11,6 @@ class Person
     @hygiene = hygiene_points
   end
 
-
   def clean?
     if @hygiene > 7
       return true
@@ -27,6 +26,15 @@ class Person
       false
     end
   end
+
+  def get_paid(salary)
+    @balance += salary
+    puts "all about the benjamins"
+  end
+
+  def take_bath
+
+
 
   binding.pry
 
