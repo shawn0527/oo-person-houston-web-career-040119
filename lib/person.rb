@@ -44,6 +44,15 @@ class Person
     puts "♪ Rub-a-dub just relaxing in the tub ♫"
   end
 
+  def work_out
+    @happiness += 2
+    puts "♪ another one bites the dust ♫"
+  end
+
+  def call_friend(friend)
+    @happiness += 3
+    puts "Hi #{friend}! It's #{@name}. How are you?"
+
 
 
 
