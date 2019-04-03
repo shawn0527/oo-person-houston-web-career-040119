@@ -11,10 +11,7 @@ class Person
     @hygiene_points = hygiene_points
   end
 
-    binding.pry
-
-    "the end"
-
+    
   def clean?
     if @hygiene_points > 7
       return true
@@ -30,4 +27,9 @@ class Person
       false
     end
   end
+
+  binding.pry
+
+  "the end"
+
 end
