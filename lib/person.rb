@@ -7,6 +7,6 @@ class Person
     @balance = balance
     @hapiness_points = happiness_points
     @hygiene_points = hygiene_points
-    
+
   end
 end
