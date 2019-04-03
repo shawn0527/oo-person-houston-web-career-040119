@@ -50,8 +50,26 @@ class Person
   end
 
   def call_friend(friend)
+    get_call(friend)
     @happiness += 3
     puts "Hi #{friend}! It's #{@name}. How are you?"
+  end
+
+  def get_call(friend)
+    @happiness += 3
+  end
+
+  def start_conversation (caller, topic)
+    if topic == "politics"
+      puts "blah blah partisan blah lobbyist".
+      @happiness -= 1
+    elsif topic == "weather"
+      puts "blah blah sun blah rain"
+      @happiness -= 1
+    else
+      puts "blah blah blah blah blah"
+    end
+  end
 
 
 
