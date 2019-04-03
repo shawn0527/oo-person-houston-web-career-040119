@@ -65,7 +65,7 @@ class Person
       @happiness -= 1
     elsif topic == "weather"
       puts "blah blah sun blah rain"
-      @happiness -= 1
+      @happiness += 1
     else
       puts "blah blah blah blah blah"
     end
