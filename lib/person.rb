@@ -62,10 +62,10 @@ class Person
   def start_conversation (caller, topic)
     if topic == "politics"
       puts "blah blah partisan blah lobbyist".
-      @happiness = @happiness - 1
+
     elsif topic == "weather"
       puts "blah blah sun blah rain"
-      @happiness += 1
+      
     else
       puts "blah blah blah blah blah"
     end
