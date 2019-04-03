@@ -16,10 +16,21 @@ class Person
       @happiness = 10
     elsif @happiness < 0
       @happiness = 0
-    else 
+    else
       @happiness
     end
   end
+
+  def hygiene
+    if @hygiene > 10
+      @hygiene = 10
+    elsif @hygiene < 0
+      @hygiene = 0
+    else
+      @hygiene
+    end
+  end
+  
 
   def clean?
     if @hygiene > 7
