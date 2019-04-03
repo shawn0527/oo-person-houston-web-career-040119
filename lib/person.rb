@@ -30,7 +30,7 @@ class Person
       @hygiene
     end
   end
-  
+
 
   def clean?
     if @hygiene > 7
@@ -66,6 +66,7 @@ class Person
   def call_friend(friend)
     get_call(friend)
     @happiness += 3
+    friend.happiness += 3
     puts "Hi #{friend}! It's #{@name}. How are you?"
   end
 
