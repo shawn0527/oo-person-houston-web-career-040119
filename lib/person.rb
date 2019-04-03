@@ -1,7 +1,7 @@
 # your code goes here
 require "pry"
 class Person
-  attr_accessor :balance, :hapiness, :hygiene
+  attr_accessor :balance, :happiness, :hygiene
 
 # if @hygiene > 10
 #   @hyginene = 10
