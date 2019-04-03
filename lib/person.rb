@@ -3,13 +3,17 @@ require "pry"
 class Person
   attr_accessor :balance, :hapiness_points, :hygiene_points
   attr_reader :name
-  binding.pry
+
   def initialize(name, balance = 25, hapiness_points = 8, hygiene_points = 8 )
     @name = name
     @balance = balance
     @hapiness_points = happiness_points
     @hygiene_points = hygiene_points
   end
+
+    binding.pry
+
+    "the en"
 
   def clean?
     if @hygiene_points > 7
