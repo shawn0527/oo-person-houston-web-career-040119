@@ -3,6 +3,9 @@ require "pry"
 class Person
   attr_accessor :balance, :hapiness, :hygiene
 
+if @hygiene > 10
+  @hyginene = 10
+end
 
 
 
