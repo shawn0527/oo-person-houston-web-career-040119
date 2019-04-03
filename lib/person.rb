@@ -1,7 +1,11 @@
 # your code goes here
 require "pry"
 class Person
-  attr_accessor :balance, :hapiness_points, :hygiene_points
+  attr_accessor :balance, :hapiness, :hygiene
+
+
+
+
   attr_reader :name
 
   def initialize(name, balance = 25, hapiness_points = 8, hygiene_points = 8 )
@@ -33,6 +37,11 @@ class Person
   end
 
   def take_bath
+    @hygiene += 4
+    puts "♪ Rub-a-dub just relaxing in the tub ♫"
+  end
+
+
 
 
 
