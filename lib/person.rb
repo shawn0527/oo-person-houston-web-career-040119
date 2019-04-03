@@ -7,8 +7,8 @@ class Person
   def initialize(name, balance = 25, hapiness_points = 8, hygiene_points = 8 )
     @name = name
     @balance = balance
-    @hapiness_points = happiness_points
-    @hygiene_points = hygiene_points
+    @hapiness = happiness_points
+    @hygiene = hygiene_points
   end
 
 
