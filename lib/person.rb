@@ -1,9 +1,6 @@
 # your code goes here
 require "pry"
 class Person
-  attr_accessor :balance
-  attr_reader :name
-
   def initialize(name, balance = 25, happiness_points = 8, hygiene_points = 8 )
     @name = name
     @balance = balance
@@ -11,11 +8,16 @@ class Person
     @hygiene = hygiene_points
   end
 
+  attr_accessor :balance
+  attr_reader :name
+
   def happiness
     if @happiness > 10
       @happiness = 10
     elsif @happiness < 0
       @happiness = 0
+    else 
+      @happiness
     end
   end
 
