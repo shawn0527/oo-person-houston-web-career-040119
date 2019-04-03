@@ -3,9 +3,11 @@ require "pry"
 class Person
   attr_accessor :balance, :happiness, :hygiene
 
-# if @hygiene > 10
-#   @hyginene = 10
-# end
+  if @happiness > 10
+    @happiness = 10
+  else @happiness < 0
+    @happiness = 0
+  end
 
 
 
@@ -70,6 +72,7 @@ class Person
       puts "blah blah blah blah blah"
     end
   end
+
 
 
 
