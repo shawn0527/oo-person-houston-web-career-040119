@@ -13,7 +13,7 @@ class Person
 
     binding.pry
 
-    "the en"
+    "the end"
 
   def clean?
     if @hygiene_points > 7
